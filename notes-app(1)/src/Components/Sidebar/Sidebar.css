@@ -1,0 +1,41 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .sidebar img {
+    width: 40px;
+    cursor: pointer;
+  }
+  
+  .sidebar img:hover {
+    width: 60px;
+  }
+  
+  .sidebar_list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+  }
+  
+  .sidebar_list_item {
+    border-radius: 50%;
+    height: 24px;
+    width: 24px;
+    list-style: none;
+  }
+  
+  .hidden-textarea {
+    position: absolute;
+    left: -9999px;
+  }
+  
